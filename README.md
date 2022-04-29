@@ -28,3 +28,7 @@ Configuration
 Test Execution
 ----
 run  `behave` on the project root folder.
+
+Note
+----
+wrote to execute in windows and mac. please check the path of chromedriver in environment.py file if test execution is failed.

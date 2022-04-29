@@ -8,7 +8,7 @@ from pages.ArticlePage import ArticlePage
 
 def before_all(context):
     if platform.system() == 'Windows':
-        context.executable_path = '\\chromedriver.exe'
+        context.executable_path = 'chromedriver.exe'
     else:
         context.executable_path = './chromedriver'
 
