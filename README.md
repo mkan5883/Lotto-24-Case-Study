@@ -20,9 +20,10 @@ Technologies
 Configuration
 ----
 1. Clone the project
-2. Install PyCharm Community edition
-3. Install Python 3
-4. run  `pip install -r requirements.txt` on the root folder of the project
+2. Download the chromedriver (same version as your Google Chrome) and put it on the project root folder
+3. Install PyCharm Community edition
+4. Install Python 3
+5. run  `pip install -r requirements.txt` on the root folder of the project
 
 Test Execution
 ----
