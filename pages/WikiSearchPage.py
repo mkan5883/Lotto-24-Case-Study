@@ -18,7 +18,7 @@ class WikiSearchPage(BasePage):
         return str(len(self.get_elements(self.suggestion)))
 
     def click_search_suggestion(self, sequence):
-        suggestion_text = self.get_text_and_click(self.get_elements(self.suggestion)[sequence])
+        suggestion_text = self.get_text_and_click(self.get_elements(self.suggestion)[sequence-1])
         return suggestion_text
 
     def verify_search_result_page(self, search_key):

@@ -35,7 +35,7 @@ def step_impl(context):
 
 @when(u'And select the first entry')
 def step_impl(context):
-    context.search_suggestion = context.search_page.click_search_suggestion(0)
+    context.search_suggestion = context.search_page.click_search_suggestion(1)
 
 
 @then(u'The visitor is on the article page of the first hit')

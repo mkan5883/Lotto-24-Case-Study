@@ -23,12 +23,12 @@ Configuration
 2. Download the chromedriver (same version as your Google Chrome) and put it on the project root folder.
 3. Install PyCharm Community edition
 4. Install Python 3
-5. run  `pip install -r requirements.txt` on the project root folder.
+5. run command  `pip install -r requirements.txt` on the project root folder.
 
 Test Execution
 ----
-run  `behave` on the project root folder.
+run command  `behave` on the project root folder.
 
 Note
 ----
-wrote to execute in windows and mac. please check the path of chromedriver in environment.py file if test execution is failed.
+Wrote to execute in macOS, Windows and Linux. If you are running on Windows, please check the path of chromedriver in environment.py file if test execution is failed.
